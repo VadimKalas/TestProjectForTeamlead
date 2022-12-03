@@ -463,3 +463,19 @@ section::after {
     margin-top: -120px;
   }
 }
+
+.animated {
+  animation: text-shadow-drop-center 2s infinite ease-in-out;
+}
+
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  50% {
+    text-shadow: 0 0 18px rgb(0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
